@@ -24,6 +24,7 @@ Distributions are finite: a set of outcomes with nonnegative weights that sum to
 | `Coin.lean` | `additive_time_average_eq_ensemble`: for a bet that adds instead of multiplies, the two averages agree. |
 | `Kelly.lean` | `kelly_optimal`: for a bet that returns 1 + u with probability p and 1 − d otherwise, the fraction f* = (pu − (1 − p)d) / (ud) maximizes p log(1 + uf) + (1 − p) log(1 − df). `kelly_growth_pos`: with an edge, the optimal growth is positive. |
 | `Kelly.lean` | For the coin, f* = 1/4, betting a quarter grows at ½ log(81/80) > 0, and betting everything shrinks wealth. |
+| `Insurance.lean` | Peters and Adamou's insurance result in its smallest form: an owner with wealth 2 facing a loss of 1 with probability ½, and an insurer with wealth 10. In expected wealth the contract is zero-sum for every fee, but every fee from 0.513 to 0.585 raises the time-average growth rate of both sides (`insurance_win_win`), and every such fee is above the expected loss. |
 | `Recovery.lean` | A loss L needs a gain of exactly L / (1 − L) to recover, always more than L. A gain of x followed by a loss of x loses money. |
 | `Ruin.lean` | As the worst outcome approaches zero, the expected log growth goes to −∞, whatever the other outcomes are. |
 

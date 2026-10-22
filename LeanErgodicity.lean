@@ -5,3 +5,4 @@ import LeanErgodicity.Recovery
 import LeanErgodicity.Ruin
 import LeanErgodicity.Ergodicity
 import LeanErgodicity.TimeAverage
+import LeanErgodicity.Insurance
