@@ -1,9 +1,13 @@
 # lean-ergodicity
 
 Machine-checked proofs, in Lean 4 with Mathlib, of the mathematics behind ergodicity economics,
-the Kelly criterion and volatility drag. It backs two essays on
-[federicocarrone.com](https://federicocarrone.com): *Ergodicity, Explained* and *Volatility Drag*,
-and the longer [Finance Is Geometry](https://federicocarrone.com/series/leptokurtic/at-the-core-of-finance-lies-geometry-in-the-end-its-all-jensens-inequality/).
+the Kelly criterion, volatility drag and insurance. It backs the
+[One Path](https://federicocarrone.com/series/one-path/) series on federicocarrone.com:
+
+- [Ergodicity, Explained](https://federicocarrone.com/series/one-path/ergodicity-explained/): `TimeAverage.lean`, `Ergodicity.lean`, `Coin.lean`
+- [Volatility Drag](https://federicocarrone.com/series/one-path/volatility-drag/): `Jensen.lean`, `Recovery.lean`
+- [The Kelly Criterion](https://federicocarrone.com/series/one-path/kelly-criterion/): `Kelly.lean`
+- [Why Insurance Makes Both Sides Richer](https://federicocarrone.com/series/one-path/insurance/): `Insurance.lean`
 
 Every result is proved. There are no `sorry`s, and each theorem depends only on Lean's standard
 axioms (`propext`, `Classical.choice`, `Quot.sound`).
