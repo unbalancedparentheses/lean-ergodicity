@@ -6,3 +6,6 @@ import LeanErgodicity.Ruin
 import LeanErgodicity.Ergodicity
 import LeanErgodicity.TimeAverage
 import LeanErgodicity.Insurance
+import LeanErgodicity.Leverage
+import LeanErgodicity.StPetersburg
+import LeanErgodicity.CoinAlmostSure
